@@ -1,21 +1,72 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
+Start
 num1=x
 num2=y
 sum=(num1,num2)
 print(sum)
+End
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+Start
+declare number variable
+// prompt user for input of variable
+print ("Enter any number")
+divide input number by 2
+// if number is evenly divisable by 2 (Google says "mod" is the function for this)
+    print ("The number is Even")
+else
+    print ("The number is Odd")
+End
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
 
-a) Read in 5 separate numbers.   
-b) Calculate the average of the five numbers.
-c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
-d) Write out the results found from steps b and c with a message describing what they are
+// a.) Read in 5 separate numbers.   
+Start
+print ("Please enter 5 numbers one at a time, pressing enter after each one:")
+// Use loop to read in 5 numbers and increase ReadCount variable with each read to change the name of the variable storing the new number
+ReadCount=1
+While ReadCount <= 5 
+    varible + ReadCount = input
+    ReadCount = ReadCount + 1
+END
+
+// b) Calculate the average of the five numbers.
+Start
+// Use sum function in Python to add up all of the numbers
+OverallSum=sum(variabe1,variable2,variabe3,variabe4,variabe5)
+// Use OverallAverage to divide OverallSum by 5
+OverallAverage=OverallSum/5
+End
+
+// c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+Start
+Declare variables Largest and Smallest
+Use min function to find smallest number, assign value to variable Smallest
+Use max function to find largest number, assign value to variable Largest
+END 
+
+// *** Longer method I wrote first before I Googled min and max functions  :) **
+// Start
+//Largest loop
+// Largest = num1
+// Loop through all 5 numbers
+// Use if statements to compare num1 and num2, assign whichever number is larger to Largest variable and complete loop to have largest number
+//Smallest loop
+// Smallest=num1
+// Loop through all 5 numbers
+// Use if statements to compare num1 and num2, assign whichever number is smaller to Smallest variable and complete loop to have smallest number
+// End
+
+// d) Write out the results found from steps b and c with a message describing what they are
+Start 
+print("Thank you for entering numbers today! Here are some facts about your numbers:")
+print("The average of the 5 numbers you entered is " OverallAverage)
+print("The Smallest Number you entered is " Smallest)
+print("The Largest Number you entered is " Largest)
+END
 
 (Your pseudocode here)
 

@@ -1,53 +1,98 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
+//Psuedocode for exercise 1
 Start
-num1=x
-num2=y
-sum=(num1,num2)
-print(sum)
-End
+Initialize and declare variables for 2 numbers
+Use Sum function to add 2 numbers
+Print results of the 2 numbers
+END
 
 // Exercise 2: Check if a Number is Even or Odd
 
+//Psedocode for exercise 2
 Start
-declare number variable
-// prompt user for input of variable
-print ("Enter any number")
-divide input number by 2
-// if number is evenly divisable by 2 (Google says "mod" is the function for this)
-    print ("The number is Even")
-else
-    print ("The number is Odd")
-End
-
-// Exercise 3: 
-Write pseudo code that will perform the following.    
-
-// a.) Read in 5 separate numbers.   
-Start
-print ("Please enter 5 numbers one at a time, pressing enter after each one:")
-// Use loop to read in 5 numbers and increase ReadCount variable with each read to change the name of the variable storing the new number
-ReadCount=1
-While ReadCount <= 5 
-    varible + ReadCount = input
-    ReadCount = ReadCount + 1
+Declare a number variable
+Prompt user for number input and pull into variable
+Use funtions or division to determine if number is even or Odd
+Print output to the screen to show if number is even or Odd
 END
 
+
+// Exercise 3: Write pseudo code that will perform the following.    
+// a.) Read in 5 separate numbers.   
 // b) Calculate the average of the five numbers.
+// c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
+// d) Write out the results found from steps b and c with a message describing what they are
+
+//Pseudocode for Exercise 3
 Start
+Prompt user to enter 5 numbers (with details on how they should enter them - comma separated, enter after each, etc.)
+Use a loop or an array to read in the variables
+Calcualte average of numbers by either using the sum function to add up all of the entered number and divide the result by 5 to get the average or running the average function on the array
+Find the smallest number using a loop
+    Declare a number variable
+    Set a variable equal to the first number
+    Compare the first and second number and set the lowest to the variable
+    Continue until all numbers are compared
+Find the largest number using a loop
+    Declare a number variable
+    Set a variable equal to the first number
+    Compare the first and second number and set the higher to the variable
+    Continue until all numbers are compared
+Output the smallest, largest and average numbers using the print function and some explanatory text
+END
+
+
+
+
+
+//See below for my attempts at the next phase of completing the exercise. Saving in case we need to come back to this.
+
+//Attempted coding for exercise 1 
+//Start
+//num1=x
+//num2=y
+//sum=(num1,num2)
+//print(sum)
+//End
+
+// Next steps to begin coding exercise 2
+// Start
+//declare number variable
+// prompt user for input of variable
+//print ("Enter any number")
+//divide input number by 2
+// if number is evenly divisable by 2 (Google says "mod" is the function for this)
+//    print ("The number is Even")
+//else
+//    print ("The number is Odd")
+//End
+
+// Next steps to begin coding exercise 3 - as much as time would allow
+// a.) Read in 5 separate numbers.   
+//Start
+//print ("Please enter 5 numbers one at a time, pressing enter after each one:")
+// Use loop to read in 5 numbers and increase ReadCount variable with each read to change the name of the variable storing the new number
+//ReadCount=1
+//While ReadCount <= 5 
+//    varible + ReadCount = input
+//    ReadCount = ReadCount + 1
+//END
+
+// b) Calculate the average of the five numbers.
+//Start
 // Use sum function in Python to add up all of the numbers
-OverallSum=sum(variabe1,variable2,variabe3,variabe4,variabe5)
+//OverallSum=sum(variabe1,variable2,variabe3,variabe4,variabe5)
 // Use OverallAverage to divide OverallSum by 5
-OverallAverage=OverallSum/5
-End
+//OverallAverage=OverallSum/5
+//End
 
 // c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
-Start
-Declare variables Largest and Smallest
-Use min function to find smallest number, assign value to variable Smallest
-Use max function to find largest number, assign value to variable Largest
-END 
-
+//Start
+//Declare variables Largest and Smallest
+//Use min function to find smallest number, assign value to variable Smallest
+//Use max function to find largest number, assign value to variable Largest
+//END 
 // *** Longer method I wrote first before I Googled min and max functions  :) **
 // Start
 //Largest loop
@@ -61,13 +106,9 @@ END
 // End
 
 // d) Write out the results found from steps b and c with a message describing what they are
-Start 
-print("Thank you for entering numbers today! Here are some facts about your numbers:")
-print("The average of the 5 numbers you entered is " OverallAverage)
-print("The Smallest Number you entered is " Smallest)
-print("The Largest Number you entered is " Largest)
-END
-
-(Your pseudocode here)
-
--- END --
+//Start 
+//print("Thank you for entering numbers today! Here are some facts about your numbers:")
+//print("The average of the 5 numbers you entered is " OverallAverage)
+//print("The Smallest Number you entered is " Smallest)
+//print("The Largest Number you entered is " Largest)
+//END
